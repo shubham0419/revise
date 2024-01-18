@@ -1,0 +1,80 @@
+#relative div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#relative div:nth-of-type(2) {
+    position: relative;
+    background-color: rebeccapurple;
+    right: 50px;
+    top: 40px;
+}
+
+#absolute {
+    position: relative;
+}
+
+#absolute div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#absolute div:nth-of-type(2) {
+    position: absolute;
+    background-color: rgb(51, 87, 153);
+    right: 50px;
+    top: 40px;
+}
+
+#sticky {
+    position: sticky;
+    top: 40px;
+}
+
+#sticky div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#sticky div:nth-of-type(2) {
+    position: sticky;
+    top: 40px;
+    background-color: rgb(51, 153, 90);
+}
+
+/* nav */
+nav {
+    background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav div {
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    color: blue;
+}
+
+
+nav img {
+    height: 100px;
+    border-radius: 100px;
+}

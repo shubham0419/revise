@@ -1,0 +1,25 @@
+/* decendant sibling */
+#art strong {
+    color: red;
+}
+
+#art div {
+    color: blueviolet;
+}
+
+/* child */
+
+p>b {
+    color: blue;
+}
+
+/* next-sibling */
+p+ol {
+    color: green;
+}
+
+/* subsequent-sibling */
+
+h1~h2 {
+    color: crimson;
+}

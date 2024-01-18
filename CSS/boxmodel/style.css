@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    /* height: 100px; */
+    width: 100px;
+    background-color: rgb(178, 178, 227);
+    border: 2px dashed blue;
+    /* border-bottom: 2px dashed black; */
+    border-radius: 10px;
+    /* square - %,px */
+    /* rectangle - px */
+    display: inline-block;
+}
+
+#circle {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 75%;
+}

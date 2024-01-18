@@ -1,0 +1,21 @@
+/* tag selector */
+h2 {
+    color: aliceblue;
+}
+
+/* h2{
+    color: red;
+} */
+/* id selector */
+#centre {
+    color: darkgreen;
+}
+
+/* class selector */
+.this {
+    color: blueviolet;
+}
+
+* {
+    border: 2px solid blue;
+}
